@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>BizForge AI Branding</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+<h2 class="logo">BizForge</h2>
+<nav>
+<a href="#">Home</a>
+<a href="#tools">Tools</a>
+<a href="#about">About</a>
+</nav>
+</header>
+
+
+<section class="hero">
+
+<h1>AI Powered Branding Platform</h1>
+
+<p>Create brand names, logos and marketing content in seconds.</p>
+
+<button class="primary-btn" onclick="scrollTools()">Get Started</button>
+
+</section>
+
+
+<section class="tools" id="tools">
+
+<div class="card">
+
+<h3>Brand Name Generator</h3>
+
+<input id="industry" placeholder="Industry">
+<input id="keywords" placeholder="Keywords">
+<input id="tone" placeholder="Tone">
+
+<button onclick="generateBrand()">Generate</button>
+
+<pre id="output"></pre>
+
+</div>
+
+
+<div class="card">
+
+<h3>Marketing Content</h3>
+
+<input id="description" placeholder="Product description">
+<input id="tone2" placeholder="Tone">
+
+<button onclick="generateContent()">Generate</button>
+
+<pre id="content"></pre>
+
+</div>
+
+
+<div class="card">
+
+<h3>Branding Chatbot</h3>
+
+<input id="chatInput" placeholder="Ask branding question">
+
+<button onclick="chatAI()">Ask AI</button>
+
+<pre id="chatOutput"></pre>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 BizForge AI Platform</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
